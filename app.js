@@ -45,10 +45,33 @@ setInterval(currentTime, 1000)
 fetch("https://api.quotable.io/random?tags=inspirational")
   .then((res) => res.json())
   .then((data) => {
-    console.log(data)
     quote.innerHTML = `
       <p>${data.content}</p>
       <p>${data.author}</p>
       `
   })
   .catch((err) => console.log(err))
+
+// weather API
+
+navigator.geolocation.getCurrentPosition((position) => {
+  fetch(
+    `https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric`
+  )
+    .then((res) => {
+      if (!res.ok) {
+        throw Error("Weather data not available")
+      }
+      return res.json()
+    })
+    .then((data) => {
+      console.log(data)
+      document.querySelector(".weather").innerHTML = `
+      <span> 
+        <img src= "http://openweathermap.org/img/wn/${data.weather[0].icon}.png"/>
+        <p>${data.main.temp} °C</p>
+        </span>        
+        `
+    })
+    .catch((err) => console.log(err))
+})

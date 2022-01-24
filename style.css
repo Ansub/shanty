@@ -62,3 +62,11 @@ footer {
 .quote {
   text-align: center;
 }
+
+.weather {
+  padding: 5px 10px;
+}
+
+.weather p {
+  margin: 0;
+}
