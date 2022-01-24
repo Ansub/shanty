@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "your chrome home",
   "action": {
-    "default_icon": "icon.png"
+    "default_icon": "/Images/shanty.png"
   },
   "chrome_url_overrides": {
     "newtab": "index.html"
