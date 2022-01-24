@@ -1,6 +1,7 @@
 # Shanty 
-[![Shanty.png](https://i.postimg.cc/VkPKsfGQ/Shanty.png)](https://postimg.cc/LnvtNpFN)
- your little Chrome Home
+[![Shanty-1.png](https://i.postimg.cc/MKGSb81Q/Shanty-1.png)](https://postimg.cc/JtSvMv6r) 
+
+your little Chrome Home
 
 Shanty is a Chrome Extension that declutters your Chrome homepage, giving it a clean and aesthetic look that makes your browser feel more like a home.
 
@@ -12,7 +13,7 @@ Shanty is a Chrome Extension that declutters your Chrome homepage, giving it a c
 * Current Time
 
 All of this in one screen!
-[![Screenshot-2022-01-24-at-8-26-30-PM.png](https://i.postimg.cc/QxzrfTdg/Screenshot-2022-01-24-at-8-26-30-PM.png)](https://postimg.cc/Xp9hJXFX)
+![Preview](Images/main.png?raw=true "Title")
 
 ## Installation
 
